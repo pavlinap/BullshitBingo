@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/frameLayout_outer">
+    <FrameLayout
+        android:minHeight="90dp"
+        android:layout_height="90dp"
+        android:layout_width="fill_parent"
+        android:background="#ffffffff"
+        android:padding="5dp"
+        android:id="@+id/frameLayout_inner">
+        <TextView
+            android:text="bajfakhdkahdfakdsasjhahjkdjakhfdjkhfjkhfdsjkhdfajkhdfsjkhdfajkhdsf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_bingoItem"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#ff000000"
+            android:ellipsize="end" />
+        <ImageView xmlns:tools="http://schemas.android.com/tools"
+            android:src="@drawable/bingo_marker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:id="@+id/iv_marker" />
+    </FrameLayout>
+</FrameLayout>
